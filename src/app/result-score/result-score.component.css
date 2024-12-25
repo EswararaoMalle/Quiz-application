@@ -1,0 +1,84 @@
+/* result-score.component.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-options {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-options li {
+    display: inline;
+  }
+  
+  .nav-options a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .result-container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #4caf50;
+    border-radius: 12px;
+    width: 60%;
+    background-color: #e8f5e9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .score-display {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .score {
+    color: #388e3c;
+  }
+  
+  .total {
+    color: #f44336;
+  }
+  
+  .percentage {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1976d2;
+  }
+  
+  .action-buttons {
+    margin-top: 20px;
+  }
+  
+  .action-buttons .btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .action-buttons .btn:hover {
+    background-color: #388e3c;
+  }
+  
